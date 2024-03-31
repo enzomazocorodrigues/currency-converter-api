@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, abort
 import requests
+import os
 
 app = Flask(__name__)
 
@@ -18,7 +19,14 @@ def convertemoeda():
     cotacao_eur =  float(data['EURBRL']['bid'])
     usd = valor * cotacao_usd
     eur = valor * cotacao_eur
-    result = { 'real': valor, 'dolar': usd, 'euro': eur }
+    result = {
+        'conversao': {
+            'real': valor,
+            'dolar': usd,
+            'euro': eur,
+            'maquina': os.uname().nodename
+        }
+    }
     return jsonify(result)
 
 if __name__ == "__main__":
