@@ -17,8 +17,8 @@ def convertemoeda():
     data = response.json()
     cotacao_usd =  float(data['USDBRL']['bid'])
     cotacao_eur =  float(data['EURBRL']['bid'])
-    usd = valor * cotacao_usd
-    eur = valor * cotacao_eur
+    usd = valor / cotacao_usd
+    eur = valor / cotacao_eur
     result = {
         'conversao': {
             'real': valor,
