@@ -67,14 +67,24 @@ Exemplo de resposta:
 - A API retorna as quantias convertidas em USD e EUR, juntamente com a quantia original em BRL e o nome da máquina onde a conversão foi realizada.
 
 
-## Contribuidores
-<!-- - [![Enzo Rodrigues](https://github.com/enzomazocorodrigues.png)](https://github.com/enzomazocorodrigues) -->
-<!-- - [![Contributor 2](https://github.com/contributor2.png)](https://github.com/contributor2)
-- [![Contributor 3](https://github.com/contributor3.png)](https://github.com/contributor3) -->
-
-<div>
-    <a href="https://github.com/enzomazocorodrigues" style="display: flex; align-items: center; gap: 8px;">
-        <img src="https://github.com/enzomazocorodrigues.png" alt="Enzo Rodrigues" style="border-radius: 50%; width: 32px; height: 32px;">
-        Enzo Rodrigues
+## Colaboradores
+<ul>
+    <li>
+        <a href="https://github.com/bk5559" style="display: flex; align-items: center; gap: 8px;">
+            <img src="https://github.com/bk5559.png" alt="Enzo Rodrigues" style="border-radius: 50%; width: 32px; height: 32px;">
+            Benjamin Kim
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/enzomazocorodrigues" style="display: flex; align-items: center; gap: 8px;">
+            <img src="https://github.com/enzomazocorodrigues.png" alt="Enzo Rodrigues" style="border-radius: 50%; width: 32px; height: 32px;">
+            Enzo Rodrigues
+        </a>
+    </li>
+    <li>
+    <a href="https://github.com/matheuspfau" style="display: flex; align-items: center; gap: 8px;">
+        <img src="https://github.com/matheuspfau.png" alt="Enzo Rodrigues" style="border-radius: 50%; width: 32px; height: 32px;">
+        Matheus Pfau
     </a>
-</div>
+    </li>
+</ul>
