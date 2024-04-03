@@ -2,7 +2,7 @@
 
 Este repositório contém uma API baseada em Flask para conversão de moedas. Permite aos usuários converter uma quantia especificada de dinheiro de Real Brasileiro (BRL) para Dólar Americano (USD) e Euro (EUR).
 
-## Executando o Projeto
+## Executando o projeto
 
 Para executar o projeto, siga estes passos:
 
@@ -32,7 +32,7 @@ Para executar o projeto, siga estes passos:
 
 5. O servidor será iniciado e você poderá acessar os endpoints da API.
 
-## Acessando a Rota `/convertemoeda`
+## Acessando a rota `/convertemoeda`
 
 Após o servidor ser iniciado, você poderá acessar a rota `/convertemoeda` para converter moeda. Veja como fazer:
 
